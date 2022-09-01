@@ -5,7 +5,6 @@ while not stop:
     nahrazovane = input("Jake pismenko chces nahradit?: ")
     substitut = input(f"Za jake chces zvolene pismenko {nahrazovane} nahradit?: ")
     sifra = ""
-    #text.replace(nahrazovane, substitut)
     for i in range(len(text)):
         if text[i] == nahrazovane:
             sifra += substitut
